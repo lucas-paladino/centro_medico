@@ -17,6 +17,11 @@
 	padding: 10px;
 }
 
+/* Clase para subir el botón cuando está cerca del footer */
+.whatsapp-float.move-up {
+	bottom: 80px;
+}
+
 .whatsapp-float img {
 	width: 100%;
 	height: 100%;
@@ -36,5 +41,9 @@
 		height: 50px;
 		bottom: 15px;
 		right: 15px;
+	}
+
+	.whatsapp-float.move-up {
+		bottom: 75px;
 	}
 }

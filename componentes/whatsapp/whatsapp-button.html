@@ -5,4 +5,36 @@
 <a href="https://wa.me/5491130955906" target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
   <img src="componentes/whatsapp/whatsapp_logo.png" alt="WhatsApp">
 </a>
+
+<!-- Script para mover el botón cuando está cerca del footer -->
+<script>
+$(document).ready(function() {
+    $(window).on("scroll resize", function() {
+        var footer = $("footer");
+        var irarriba = $(".irarriba");
+
+        if (footer.length && irarriba.length) {
+            var footerTop = footer.offset().top;
+            var windowBottom = $(window).scrollTop() + $(window).height();
+            var whatsappBtn = $(".whatsapp-float");
+
+            // Calcular posiciones horizontales
+            var irarribaLeft = irarriba.offset().left;
+            var irarribaRight = irarribaLeft + irarriba.outerWidth();
+            var whatsappLeft = whatsappBtn.offset().left;
+            var whatsappRight = whatsappLeft + whatsappBtn.outerWidth();
+
+            // Verificar si hay solapamiento horizontal
+            var horizontalOverlap = (whatsappLeft < irarribaRight) && (whatsappRight > irarribaLeft);
+
+            // Si hay solapamiento horizontal Y está cerca del footer, subir el botón
+            if (horizontalOverlap && windowBottom >= footerTop - 100) {
+                whatsappBtn.addClass("move-up");
+            } else {
+                whatsappBtn.removeClass("move-up");
+            }
+        }
+    });
+});
+</script>
 <!-- Fin boton WhatsApp -->

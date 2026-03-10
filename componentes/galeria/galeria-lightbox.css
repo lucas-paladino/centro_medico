@@ -4,10 +4,22 @@
 	margin-bottom: 30px;
 }
 
+/* Ajustar row para compensar el padding reducido */
+.galeria-lightbox .row {
+	margin-left: -4px;
+	margin-right: -4px;
+}
+
+/* Reducir padding de las columnas de Bootstrap */
+.galeria-lightbox [class*="col-"] {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
 .galeria-item {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 	cursor: pointer;
 }
 
@@ -47,7 +59,7 @@
 /* Responsive */
 @media (max-width: 768px) {
 	.galeria-item {
-		margin-bottom: 15px;
+		margin-bottom: 8px;
 	}
 }
 
