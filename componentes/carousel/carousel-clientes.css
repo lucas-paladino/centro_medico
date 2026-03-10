@@ -1,0 +1,77 @@
+/* Estilos para Slick Carousel de clientes */
+.carousel-clientes-wrapper {
+    padding: 20px 0;
+}
+
+#carouselClientes {
+    margin: 0 auto;
+}
+
+#carouselClientes .item-logo {
+    padding: 15px;
+    text-align: center;
+    outline: none;
+}
+
+#carouselClientes .item-logo img {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Personalizar flechas de Slick */
+#carouselClientes .slick-prev,
+#carouselClientes .slick-next {
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+}
+
+#carouselClientes .slick-prev {
+    left: -50px;
+}
+
+#carouselClientes .slick-next {
+    right: -50px;
+}
+
+#carouselClientes .slick-prev:before,
+#carouselClientes .slick-next:before {
+    font-size: 40px;
+    color: #333;
+    opacity: 0.7;
+}
+
+#carouselClientes .slick-prev:hover:before,
+#carouselClientes .slick-next:hover:before {
+    opacity: 1;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    #carouselClientes .slick-prev {
+        left: -30px;
+    }
+
+    #carouselClientes .slick-next {
+        right: -30px;
+    }
+}
+
+@media (max-width: 767px) {
+    #carouselClientes .slick-prev {
+        left: -20px;
+    }
+
+    #carouselClientes .slick-next {
+        right: -20px;
+    }
+
+    #carouselClientes .slick-prev:before,
+    #carouselClientes .slick-next:before {
+        font-size: 30px;
+    }
+}

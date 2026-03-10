@@ -1,0 +1,12 @@
+# Archivos del sistema
+.DS_Store
+
+# Archivos de desarrollo local
+server.py
+iniciar-servidor.bat
+
+# Documentos de trabajo
+*.docx
+
+# Screenshots/imágenes de referencia
+CSS-media-queries.png

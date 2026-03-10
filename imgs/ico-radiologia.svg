@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 100 100">
+  <!-- Generator: Adobe Illustrator 30.2.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 1)  -->
+  <defs>
+    <style>
+      .st0, .st1 {
+        fill: none;
+      }
+
+      .st2 {
+        fill: #fff;
+      }
+
+      .st2, .st1 {
+        stroke: #39b39d;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .st3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .st4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" x="15.35" y="9.96" width="33.41" height="72.72"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="st0" x="48.76" y="9.96" width="33.41" height="72.72"/>
+    </clipPath>
+  </defs>
+  <path class="st2" d="M80.76,7.82c6.31,0,11.42,5.11,11.42,11.42v61.51c0,6.31-5.11,11.42-11.42,11.42H19.24c-6.31,0-11.42-5.11-11.42-11.42V19.24c0-6.31,5.11-11.42,11.42-11.42"/>
+  <g>
+    <g id="_x3C_Repetición_de_espejo_x3E_">
+      <g class="st4">
+        <path class="st1" d="M48.52,14.89s-14.39-7.56-16.34-2.93c-1.95,4.63,8.17,10,8.17,10"/>
+        <path class="st1" d="M40.23,31.71s-14.14.49-15.36-3.9c-1.22-4.39,1.46-10.34,1.46-10.34"/>
+        <path class="st1" d="M19.5,31.73s.24,9.74,6.83,9.74c0,0,9.26.73,13.89-.73"/>
+        <path class="st1" d="M15.85,44.39s.73,15.36,26.09,8.29"/>
+        <path class="st1" d="M17.31,57.8s-2.44,15.36,22.92,5.85"/>
+        <path class="st1" d="M19.5,72.92s3.9,9.27,10.36,9.27,18.65-19.9,18.65-19.9"/>
+        <path class="st1" d="M48.52,21.96s-5.85,2.19-4.39,13.17c1.46,10.97,4.63,17.56,4.63,17.56"/>
+      </g>
+    </g>
+    <g id="_x3C_Repetición_de_espejo_x3E_1" data-name="_x3C_Repetición_de_espejo_x3E_">
+      <g class="st3">
+        <path class="st1" d="M49,14.89s14.39-7.56,16.34-2.93c1.95,4.63-8.17,10-8.17,10"/>
+        <path class="st1" d="M57.29,31.71s14.14.49,15.36-3.9c1.22-4.39-1.46-10.34-1.46-10.34"/>
+        <path class="st1" d="M78.02,31.73s-.24,9.74-6.83,9.74c0,0-9.26.73-13.89-.73"/>
+        <path class="st1" d="M81.67,44.39s-.73,15.36-26.09,8.29"/>
+        <path class="st1" d="M80.21,57.8s2.44,15.36-22.92,5.85"/>
+        <path class="st1" d="M78.02,72.92s-3.9,9.27-10.36,9.27-18.65-19.9-18.65-19.9"/>
+        <path class="st1" d="M49,21.96s5.85,2.19,4.39,13.17c-1.46,10.97-4.63,17.56-4.63,17.56"/>
+      </g>
+    </g>
+  </g>
+</svg>

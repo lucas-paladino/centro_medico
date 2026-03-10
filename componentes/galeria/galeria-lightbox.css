@@ -1,0 +1,103 @@
+/* Galeria Lightbox */
+.galeria-lightbox {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.galeria-item {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.galeria-item a {
+	display: block;
+	position: relative;
+}
+
+.galeria-thumb {
+	width: 100%;
+	height: auto;
+}
+
+.galeria-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(80, 206, 171, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.galeria-item:hover .galeria-overlay {
+	opacity: 1;
+}
+
+.galeria-overlay i {
+	font-size: 40px;
+	color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.galeria-item {
+		margin-bottom: 15px;
+	}
+}
+
+/* Personalización de Lightbox2 */
+
+/* Centrado vertical del contenedor */
+.lightbox .lb-outerContainer {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 80vw;
+	max-height: 80vh;
+}
+
+/* Tamaño de las imágenes */
+.lightbox .lb-image {
+	max-width: 80vw;
+	max-height: 80vh;
+	width: auto;
+	height: auto;
+}
+
+/* Ancho del contenedor de datos (título) */
+.lightbox .lb-dataContainer {
+	max-width: 80vw;
+}
+
+/* Ocultar el loading y botón cerrar cuando están en posiciones incorrectas */
+.lightbox .lb-nav {
+	z-index: 10000;
+}
+
+.lightbox .lb-loader,
+.lightbox .lb-close {
+	z-index: 10001;
+}
+
+@media (max-width: 768px) {
+	.lightbox .lb-outerContainer {
+		max-width: 90vw;
+		max-height: 90vh;
+	}
+
+	.lightbox .lb-image {
+		max-width: 90vw;
+		max-height: 90vh;
+	}
+
+	.lightbox .lb-dataContainer {
+		max-width: 90vw;
+	}
+}
