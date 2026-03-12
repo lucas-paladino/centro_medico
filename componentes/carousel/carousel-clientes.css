@@ -22,7 +22,7 @@
     display: block;
 }
 
-/* Personalizar flechas de Slick */
+/* Personalizar flechas de Slick con chevrons */
 #carouselClientes .slick-prev,
 #carouselClientes .slick-next {
     width: 40px;
@@ -31,18 +31,27 @@
 }
 
 #carouselClientes .slick-prev {
-    left: -50px;
+    left: 0;
 }
 
 #carouselClientes .slick-next {
-    right: -50px;
+    right: 0;
 }
 
 #carouselClientes .slick-prev:before,
 #carouselClientes .slick-next:before {
-    font-size: 40px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 30px;
     color: #333;
     opacity: 0.7;
+}
+
+#carouselClientes .slick-prev:before {
+    content: '\e079'; /* glyphicon-chevron-left */
+}
+
+#carouselClientes .slick-next:before {
+    content: '\e080'; /* glyphicon-chevron-right */
 }
 
 #carouselClientes .slick-prev:hover:before,
@@ -53,21 +62,21 @@
 /* Responsive */
 @media (max-width: 991px) {
     #carouselClientes .slick-prev {
-        left: -30px;
+        left: 0;
     }
 
     #carouselClientes .slick-next {
-        right: -30px;
+        right: 0;
     }
 }
 
 @media (max-width: 767px) {
     #carouselClientes .slick-prev {
-        left: -20px;
+        left: 0;
     }
 
     #carouselClientes .slick-next {
-        right: -20px;
+        right: 0;
     }
 
     #carouselClientes .slick-prev:before,
